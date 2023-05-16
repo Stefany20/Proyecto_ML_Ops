@@ -19,16 +19,16 @@ Los principales archivos desarrollados (que en el apartado siguiente se describi
 
 ### **1. Etapa del proceso ETL** :arrow_right:
 
-Archivo principal: **[preparacion de datos](Preparacion de Datos.ipynb)**
+Archivo principal: **[Transformacion - Funciones](Preparacion de Datos.ipynb)**
 - Se realizó el proceso de ETL (extracción, transformación y carga).
-- Los valores nulos de los campos revenue, budget deben ser rellenados por el número 0.
-- fechas  la pasamos a formato AAAA-mm-dd, creamos una columna  release_year donde extraemos el año de la fecha de estreno.
+- Los valores nulos de los campos revenue, budget se rellenaron con el número 0.
+- Fechas  la pasamos a formato AAAA-mm-dd, creamos una columna  release_year donde extraemos el año de la fecha de estreno.
 -Crearmos la columna con el retorno de inversión, llamada return con los campos revenue y budget, 
 dividiendo estas dos últimas revenue / budget,los datos que no estan disponibles toman el valor 0.
 -Las columnas que estan anidadas que son genres,production_companies,belongs_to_collection,production_countries,spoken_languages las 
 desanidamos para llegar a los valores 
 
-### **Desarrollo API** :arrow_right:
+### **2. Desarrollo API** :arrow_right:
 
 Archivo principal: **[main.py](main.py)**
 - Se realizó el proceso de disponibilización de la información mediante el framework FastAPI.
