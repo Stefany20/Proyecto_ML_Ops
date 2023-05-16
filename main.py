@@ -9,7 +9,7 @@ from sklearn.metrics.pairwise import linear_kernel
 
 app = FastAPI.FastAPI()
 #importamos la data 
-data = pd.read_csv("definido_movies_dataset.csv")
+data = pd.read_csv("restaurado_movies_dataset.csv")
 
 #Los valores nulos de los campos revenue, budget deben ser rellenados por el número 0.
 data["revenue"].fillna(0, inplace = True)
