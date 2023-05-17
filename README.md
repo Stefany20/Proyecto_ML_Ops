@@ -19,7 +19,7 @@ Los principales archivos desarrollados (que en el apartado siguiente se describi
 
 ### 1. Etapa del proceso ETL :arrow_right:
 
-Archivo principal: **[Transformacion-Funciones-](Preparacion%20de%20Datos.ipynb)**
+Archivo principal: **[Transformacion-Funciones-](Preparacion de Datos.ipynb)**
 - Se realizó el proceso de ETL (extracción, transformación y carga).
 - Los valores nulos de los campos revenue, budget se rellenaron con el número 0.
 - Fechas  la pasamos a formato AAAA-mm-dd, creamos una columna  release_year donde extraemos el año de la fecha de estreno.
