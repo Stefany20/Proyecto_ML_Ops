@@ -67,4 +67,4 @@ Archivo principal: **[EDA- Recomendacion](recomendacion.ipynb)**
 
 
 Proyecto individual. Machine Learning Operations
-
+Link del Deployment **https://pi-ml-ops4.onrender.com**
