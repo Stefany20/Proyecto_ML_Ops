@@ -17,9 +17,9 @@ Los principales archivos desarrollados (que en el apartado siguiente se describi
 
 ## SOLUCIÓN DEL PROYECTO :white_circle:
 
-### 1. Etapa del proceso ETL :arrow_right:
+### 1. Etapa del proceso ETL :
 
-Archivo principal: **[Transformacion-Funciones-](Preparacion de Datos.ipynb)**
+Archivo principal: **[Transformacion-Funciones](Preparacion de Datos.ipynb)**
 - Se realizó el proceso de ETL (extracción, transformación y carga).
 - Los valores nulos de los campos revenue, budget se rellenaron con el número 0.
 - Fechas  la pasamos a formato AAAA-mm-dd, creamos una columna  release_year donde extraemos el año de la fecha de estreno.
@@ -28,12 +28,12 @@ dividiendo estas dos últimas revenue / budget,los datos que no estan disponible
 -Las columnas que estan anidadas que son genres,production_companies,belongs_to_collection,production_countries,spoken_languages las 
 desanidamos para llegar a los valores 
 
-### 2. Desarrollo API :arrow_right:
+### 2. Desarrollo API :
 
 Archivo principal: **[main.py](main.py)**
 - Se realizó el proceso de disponibilización de la información mediante el framework FastAPI.
 
-### 3. Etapa del proceso EDA:arrow_right:
+### 3. Etapa del proceso EDA:
 Archivo principal: **[EDA-Recoemdacion](EDA.ipynb)**
 Se realizaron las tareas de MVP requeridas:
  
@@ -56,7 +56,7 @@ Se realizaron las tareas de MVP requeridas:
 - El publico tiende a disfrutar mas las peliculas más nuevas, pero la popularidad no necesariamente se relaciona con la puntacion de votos mas alta
 - Tambien podemos ver algunos valores atipicos, ya que hay algunas peliculas antiguas que tienen una calificacion mas alta que algunas peliculas mas recientes
 
-### 4. Etapa del Sistema de Recomendación :arrow_right:
+### 4. Etapa del Sistema de Recomendación :
 Archivo principal: **[EDA- Recomendacion](recomendacion.ipynb)**
 Éste consiste en recomendar películas a los usuarios basándose en películas similares, por lo que se debe encontrar la similitud entre las película y el resto de películas, se ordenarán y devolverá un diccionario de Python con 5 valores, cada uno siendo el string. Fue deployado como una función adicional de la API anterior y se llama recomendacion(titulo: str).
 
