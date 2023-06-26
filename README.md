@@ -65,4 +65,4 @@ Archivo principal: **[EDA- Recomendacion](recomendacion.ipynb)**
 Éste consiste en recomendar películas a los usuarios basándose en películas similares, por lo que se debe encontrar la similitud entre las película y el resto de películas, se ordenarán y devolverá un diccionario de Python con 5 valores, cada uno siendo el string. Fue deployado como una función adicional de la API anterior y se llama recomendacion(titulo: str).
 
 
-Link del Deployment **https://pi-ml-ops4.onrender.com**
+Link del Deployment **https://pi-ml-ops4.onrender.com/docs**
